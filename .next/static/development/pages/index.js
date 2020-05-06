@@ -18807,10 +18807,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.js&hotRouterUpdates=true!./":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.js&hotRouterUpdates=true ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true!./":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18818,11 +18818,11 @@ module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7
     (window.__NEXT_P = window.__NEXT_P || []).push([
       "/",
       function () {
-        var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js");
+        var mod = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx");
         if (true) {
-          module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function () {
+          module.hot.accept(/*! ./pages/index.tsx */ "./pages/index.tsx", function () {
             if (!next.router.components["/"]) return;
-            var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js");
+            var updatedPage = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx");
             next.router.update("/", updatedPage);
           });
         }
@@ -50310,10 +50310,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/home.js":
-/*!***********************!*\
-  !*** ./pages/home.js ***!
-  \***********************/
+/***/ "./pages/home.tsx":
+/*!************************!*\
+  !*** ./pages/home.tsx ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -50331,7 +50331,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/home.js";
+var _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/home.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
@@ -50379,10 +50379,10 @@ var Home = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/index.tsx":
+/*!*************************!*\
+  !*** ./pages/index.tsx ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -50390,10 +50390,10 @@ var Home = /*#__PURE__*/function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./pages/home.js");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./pages/home.tsx");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
 var _this = undefined,
-    _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/index.js";
+    _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -50430,13 +50430,13 @@ var App = function App() {
 /***/ }),
 
 /***/ 1:
-/*!******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.js&hotRouterUpdates=true ***!
-  \******************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.js&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true!./");
 
 
 /***/ }),
