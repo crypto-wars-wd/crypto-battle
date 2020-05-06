@@ -1,9 +1,9 @@
-import React from "react";
-import Home from "./home";
-import { Button } from 'semantic-ui-react'
+import React from 'react';
+import { Button } from 'semantic-ui-react';
 
-const App = () => <div>
-    <Home />
+const App = () => (
+  <div>
     <Button>Click Here</Button>
-</div>
+  </div>
+);
 export default App;
