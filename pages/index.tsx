@@ -1,9 +1,19 @@
-import React from 'react';
-import { Button } from 'semantic-ui-react';
+import * as React from 'react';
+import ListComponent from './List';
+import styled from 'styled-components';
 
-const App = () => (
-  <div>
-    <Button>Click Here</Button>
-  </div>
+const Container = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const App: React.FC = () => (
+    <Container>
+        <ListComponent />
+    </Container>
 );
+
 export default App;
