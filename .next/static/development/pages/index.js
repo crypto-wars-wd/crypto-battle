@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/Item/Item.tsx":
-/*!**********************************!*\
-  !*** ./components/Item/Item.tsx ***!
-  \**********************************/
+/***/ "./components/AuthPage/AuthPage.tsx":
+/*!******************************************!*\
+  !*** ./components/AuthPage/AuthPage.tsx ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12,160 +12,130 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
+/* harmony import */ var _styledComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styledComponent */ "./components/AuthPage/styledComponent.ts");
 var _this = undefined,
-    _jsxFileName = "/home/andrey/programming/projects/templateNext/components/Item/Item.tsx";
+    _jsxFileName = "/home/andrey/programming/projects/templateNext/components/AuthPage/AuthPage.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 
 
 
-var Item = function Item(props) {
-  return __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+
+var AuthPage = function AuthPage() {
+  return __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["AuthMain"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 5
+      lineNumber: 7,
+      columnNumber: 9
     }
-  }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: props.img,
-    avatar: true,
+  }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["HeaderStyled"], {
+    block: true,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+    disabled: true,
+    name: "google",
+    size: "huge",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 17
+    }
+  }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+    disabled: true,
+    name: "facebook",
+    size: "huge",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 17
+    }
+  })), __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["AuthContentWrapper"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 9
+      columnNumber: 13
     }
-  }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+  }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["AuthContent"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 9
-    }
-  }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-    as: "a",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 13
-    }
-  }, props.name), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-    as: "a",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 13
-    }
-  }, props.rate), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Rating"], {
-    icon: "star",
-    defaultRating: "".concat(props.rate),
-    maxRating: 5,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 13
+      columnNumber: 17
     }
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Item);
+/* harmony default export */ __webpack_exports__["default"] = (AuthPage);
 
 /***/ }),
 
-/***/ "./mockdata/users.ts":
-/*!***************************!*\
-  !*** ./mockdata/users.ts ***!
-  \***************************/
-/*! exports provided: default */
+/***/ "./components/AuthPage/styledComponent.ts":
+/*!************************************************!*\
+  !*** ./components/AuthPage/styledComponent.ts ***!
+  \************************************************/
+/*! exports provided: AuthMain, AuthContentWrapper, AuthContent, HeaderStyled */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ([{
-  id: 1,
-  name: 'Vasya',
-  img: 'https://www.flaticon.com/premium-icon/icons/svg/2862/2862619.svg',
-  rate: 1
-}, {
-  id: 2,
-  name: 'Gasya',
-  img: 'https://image.flaticon.com/icons/svg/2883/2883872.svg',
-  rate: 2
-}, {
-  id: 3,
-  name: 'Dasha',
-  img: 'https://image.flaticon.com/icons/png/512/145/145867.png',
-  rate: 5
-}, {
-  id: 4,
-  name: 'Masha',
-  img: 'https://image.flaticon.com/icons/png/512/2750/2750657.png',
-  rate: 3
-}, {
-  id: 5,
-  name: 'Vasya',
-  img: 'https://www.flaticon.com/premium-icon/icons/svg/2862/2862619.svg',
-  rate: 1
-}, {
-  id: 6,
-  name: 'Gasya',
-  img: 'https://image.flaticon.com/icons/svg/2883/2883872.svg',
-  rate: 2
-}, {
-  id: 7,
-  name: 'Dasha',
-  img: 'https://image.flaticon.com/icons/png/512/145/145867.png',
-  rate: 5
-}, {
-  id: 8,
-  name: 'Masha',
-  img: 'https://image.flaticon.com/icons/png/512/2750/2750657.png',
-  rate: 3
-}, {
-  id: 9,
-  name: 'Vasya',
-  img: 'https://www.flaticon.com/premium-icon/icons/svg/2862/2862619.svg',
-  rate: 1
-}, {
-  id: 10,
-  name: 'Gasya',
-  img: 'https://image.flaticon.com/icons/svg/2883/2883872.svg',
-  rate: 2
-}, {
-  id: 12,
-  name: 'Dasha',
-  img: 'https://image.flaticon.com/icons/png/512/145/145867.png',
-  rate: 5
-}, {
-  id: 13,
-  name: 'Masha',
-  img: 'https://image.flaticon.com/icons/png/512/2750/2750657.png',
-  rate: 3
-}, {
-  id: 14,
-  name: 'Vasya',
-  img: 'https://www.flaticon.com/premium-icon/icons/svg/2862/2862619.svg',
-  rate: 1
-}, {
-  id: 15,
-  name: 'Gasya',
-  img: 'https://image.flaticon.com/icons/svg/2883/2883872.svg',
-  rate: 2
-}, {
-  id: 16,
-  name: 'Dasha',
-  img: 'https://image.flaticon.com/icons/png/512/145/145867.png',
-  rate: 5
-}, {
-  id: 17,
-  name: 'Masha',
-  img: 'https://image.flaticon.com/icons/png/512/2750/2750657.png',
-  rate: 3
-}]);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthMain", function() { return AuthMain; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthContentWrapper", function() { return AuthContentWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthContent", function() { return AuthContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderStyled", function() { return HeaderStyled; });
+/* harmony import */ var _babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
+
+
+function _templateObject3() {
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width: 80%;\n    height: 100%;\n    background: white;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width: 100%;\n    height: 100%;\n    display:flex;\n    justify-content: center;\n    align-items: center;\n    background: blue;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width: 100%;\n    height: 100vh;\n    display:flex;\n    flex-direction: column;\n    justify-content: space-between;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+var AuthMain = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+var AuthContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2());
+var AuthContent = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3());
+var HeaderStyled = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Header"])({
+  margin: '0!important',
+  display: 'flex',
+  justifyContent: 'flex-end'
+});
 
 /***/ }),
 
@@ -53514,9 +53484,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/List.tsx":
+/***/ "./pages/auth.tsx":
 /*!************************!*\
-  !*** ./pages/List.tsx ***!
+  !*** ./pages/auth.tsx ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -53525,56 +53495,32 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Item_Item__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Item/Item */ "./components/Item/Item.tsx");
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
-/* harmony import */ var _mockdata_users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../mockdata/users */ "./mockdata/users.ts");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _components_AuthPage_AuthPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AuthPage/AuthPage */ "./components/AuthPage/AuthPage.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/List.tsx";
+    _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/auth.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
+// import * as React from 'react';
+// import Router from 'next/router'
+//
+// const Auth: React.FC = () => <h1 onClick={() => Router.push('/')}>Auth</h1>;
+//
+// export default Auth;
 
 
 
-
-
-var ListStyled = Object(styled_components__WEBPACK_IMPORTED_MODULE_4__["default"])(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["List"])({
-  height: '50%',
-  width: '30%',
-  display: 'flex',
-  overflow: 'scroll',
-  overflowX: 'hidden',
-  flexDirection: 'column',
-  justifyContent: 'center'
-});
-
-var ListComponent = function ListComponent() {
-  return __jsx(ListStyled, {
-    divided: true,
-    relaxed: true,
+var Auth = function Auth() {
+  return __jsx(_components_AuthPage_AuthPage__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 9
+      lineNumber: 10,
+      columnNumber: 31
     }
-  }, _mockdata_users__WEBPACK_IMPORTED_MODULE_3__["default"].map(function (item) {
-    return __jsx(_components_Item_Item__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      name: item.name,
-      rate: item.rate,
-      img: item.img,
-      key: item.id,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 17
-      }
-    });
-  }));
+  });
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (ListComponent);
+/* harmony default export */ __webpack_exports__["default"] = (Auth);
 
 /***/ }),
 
@@ -53587,56 +53533,51 @@ var ListComponent = function ListComponent() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _List__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./List */ "./pages/List.tsx");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./auth */ "./pages/auth.tsx");
 var _this = undefined,
     _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/index.tsx";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1__["createElement"];
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
+// import * as React from 'react';
+// import ListComponent from './List';
+// import styled from 'styled-components';
+//
+// const Container = styled.div`
+//   width: 100%;
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
+//
+// const App: React.FC = () => (
+//     <Container>
+//         <ListComponent />
+//     </Container>
+// );
+//
+// export default App;
 
-function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width: 100%;\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n"]);
 
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-var Container = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject());
 
 var App = function App() {
-  return __jsx(Container, {
+  return __jsx(_auth__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 5
+      lineNumber: 24,
+      columnNumber: 29
     }
-  }, __jsx(_List__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 9
-    }
-  }));
+  });
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true ***!
   \*******************************************************************************************************************************************************************/
@@ -53659,5 +53600,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
