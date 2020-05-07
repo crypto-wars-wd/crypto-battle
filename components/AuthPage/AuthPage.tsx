@@ -6,21 +6,20 @@ import GoogleLogin from 'react-google-login';
 import FacebookLoginWithButton from 'react-facebook-login';
 
 const responseGoogle = (response: any) => {
-  console.log(response);
+    console.log(response);
 };
 
 const responseFacebook = (response: any) => {
-  console.log(response);
+    console.log(response);
 };
 
-
 const AuthPage: React.FC = () => {
-  return (
+    return (
         <Styled.AuthMain>
             <Styled.HeaderStyled block>
                 <GoogleLogin
                     clientId="411912187634-09e2pudtp337atlucsnlfaeb13ie4ntj.apps.googleusercontent.com"
-                    buttonText="Login"
+                    buttonText=""
                     onSuccess={responseGoogle}
                     onFailure={responseGoogle}
                     cookiePolicy={'single_host_origin'}
@@ -28,6 +27,7 @@ const AuthPage: React.FC = () => {
                 <FacebookLoginWithButton
                     appId="263020944839635"
                     autoLoad={false}
+                    textButton=""
                     fields="name,email,picture"
                     onClick={responseFacebook}
                     callback={responseFacebook}
@@ -37,7 +37,7 @@ const AuthPage: React.FC = () => {
                 <Styled.AuthContent />
             </Styled.AuthContentWrapper>
         </Styled.AuthMain>
-  );
+    );
 };
 
 export default AuthPage;

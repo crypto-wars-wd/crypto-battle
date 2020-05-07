@@ -131,7 +131,7 @@ const AuthPage = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 18,
       columnNumber: 9
     }
   }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["HeaderStyled"], {
@@ -139,24 +139,25 @@ const AuthPage = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 13
     }
   }, __jsx(react_google_login__WEBPACK_IMPORTED_MODULE_2___default.a, {
     clientId: "411912187634-09e2pudtp337atlucsnlfaeb13ie4ntj.apps.googleusercontent.com",
-    buttonText: "Login",
+    buttonText: "",
     onSuccess: responseGoogle,
     onFailure: responseGoogle,
     cookiePolicy: 'single_host_origin',
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 20,
       columnNumber: 17
     }
   }), __jsx(react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default.a, {
     appId: "263020944839635",
     autoLoad: false,
+    textButton: "",
     fields: "name,email,picture",
     onClick: responseFacebook,
     callback: responseFacebook,
@@ -164,7 +165,7 @@ const AuthPage = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 27,
       columnNumber: 17
     }
   })), __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContentWrapper"], {
