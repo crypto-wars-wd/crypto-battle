@@ -1,9 +1,15 @@
 import * as React from 'react';
-import { Icon } from 'semantic-ui-react';
+// import { Icon } from 'semantic-ui-react';
 import * as Styled from './styledComponent';
 import GoogleLogin from 'react-google-login';
+// import FacebookLogin from 'react-facebook-login';
+import FacebookLoginWithButton from 'react-facebook-login';
 
 const responseGoogle = (response: any) => {
+  console.log(response);
+};
+
+const responseFacebook = (response: any) => {
     console.log(response);
 }
 
@@ -18,8 +24,13 @@ const AuthPage: React.FC = () => {
                     onFailure={responseGoogle}
                     cookiePolicy={'single_host_origin'}
                 />
-                <Icon disabled name="google" size="huge"/>
-                <Icon disabled name="facebook" size="huge"/>
+                <FacebookLoginWithButton
+                    appId="263020944839635"
+                    autoLoad={false}
+                    fields="name,email,picture"
+                    onClick={responseFacebook}
+                    callback={responseFacebook}
+                    icon="fa-facebook" />
             </Styled.HeaderStyled>
             <Styled.AuthContentWrapper>
                 <Styled.AuthContent />

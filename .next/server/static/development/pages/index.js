@@ -104,15 +104,17 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styledComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styledComponent */ "./components/AuthPage/styledComponent.ts");
-/* harmony import */ var react_google_login__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-google-login */ "react-google-login");
-/* harmony import */ var react_google_login__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_google_login__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styledComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styledComponent */ "./components/AuthPage/styledComponent.ts");
+/* harmony import */ var react_google_login__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-google-login */ "react-google-login");
+/* harmony import */ var react_google_login__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_google_login__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_facebook_login__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-facebook-login */ "react-facebook-login");
+/* harmony import */ var react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_facebook_login__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/home/andrey/programming/projects/templateNext/components/AuthPage/AuthPage.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
+ // import { Icon } from 'semantic-ui-react';
 
 
+ // import FacebookLogin from 'react-facebook-login';
 
 
 
@@ -120,23 +122,27 @@ const responseGoogle = response => {
   console.log(response);
 };
 
+const responseFacebook = response => {
+  console.log(response);
+};
+
 const AuthPage = () => {
-  return __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["AuthMain"], {
+  return __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthMain"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 18,
       columnNumber: 9
     }
-  }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["HeaderStyled"], {
+  }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["HeaderStyled"], {
     block: true,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 19,
       columnNumber: 13
     }
-  }, __jsx(react_google_login__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, __jsx(react_google_login__WEBPACK_IMPORTED_MODULE_2___default.a, {
     clientId: "411912187634-09e2pudtp337atlucsnlfaeb13ie4ntj.apps.googleusercontent.com",
     buttonText: "Login",
     onSuccess: responseGoogle,
@@ -145,41 +151,34 @@ const AuthPage = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 20,
       columnNumber: 17
     }
-  }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
-    disabled: true,
-    name: "google",
-    size: "huge",
+  }), __jsx(react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    appId: "263020944839635",
+    autoLoad: false,
+    fields: "name,email,picture",
+    onClick: responseFacebook,
+    callback: responseFacebook,
+    icon: "fa-facebook",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 27,
       columnNumber: 17
     }
-  }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
-    disabled: true,
-    name: "facebook",
-    size: "huge",
+  })), __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContentWrapper"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 17
-    }
-  })), __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["AuthContentWrapper"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 35,
       columnNumber: 13
     }
-  }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_2__["AuthContent"], {
+  }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContent"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 36,
       columnNumber: 17
     }
   })));
@@ -341,6 +340,17 @@ module.exports = __webpack_require__(/*! /home/andrey/programming/projects/templ
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-facebook-login":
+/*!***************************************!*\
+  !*** external "react-facebook-login" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-facebook-login");
 
 /***/ }),
 
