@@ -19,8 +19,13 @@
 // export default App;
 
 import * as React from 'react';
-import Auth from './auth';
+import { Provider } from "react-redux";
 
-const App: React.FC = () => <Auth />;
+import Auth from './auth';
+import configureStore from "../redux/configureStore";
+
+const store = configureStore();
+
+const App: React.FC = () => <Provider store={store}><Auth /></Provider>;
 
 export default App;

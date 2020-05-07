@@ -1,9 +1,8 @@
 import * as React from 'react';
-// import { Icon } from 'semantic-ui-react';
 import * as Styled from './styledComponent';
 import GoogleLogin from 'react-google-login';
-// import FacebookLogin from 'react-facebook-login';
 import FacebookLoginWithButton from 'react-facebook-login';
+import { connect } from "react-redux";
 
 const responseGoogle = (response: any) => {
     console.log(response);
@@ -13,7 +12,9 @@ const responseFacebook = (response: any) => {
     console.log(response);
 };
 
-const AuthPage: React.FC = () => {
+
+
+const AuthPage: React.FC = (props: any) => {
     return (
         <Styled.AuthMain>
             <Styled.HeaderStyled block>
@@ -32,6 +33,7 @@ const AuthPage: React.FC = () => {
                     onClick={responseFacebook}
                     callback={responseFacebook}
                     icon="fa-facebook" />
+                <button onClick={props.sayHello}/>
             </Styled.HeaderStyled>
             <Styled.AuthContentWrapper>
                 <Styled.AuthContent />
@@ -40,4 +42,15 @@ const AuthPage: React.FC = () => {
     );
 };
 
-export default AuthPage;
+
+const mapDispatchToProps = (dispatch: any) => ({
+    sayHello: () => dispatch({
+        type: "HELLO",
+    }),
+    // onClear: () => dispatch(setLyrics("")),
+});
+
+export default connect(
+    null,
+    mapDispatchToProps
+)(AuthPage);
