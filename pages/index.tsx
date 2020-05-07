@@ -19,7 +19,7 @@
 // export default App;
 
 import * as React from 'react';
-import Auth from "./auth";
+import Auth from './auth';
 
 const App: React.FC = () => <Auth />;
 

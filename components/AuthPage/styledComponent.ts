@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Header } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react';
 
 export const AuthMain = styled.div`
     width: 100%;
@@ -25,7 +25,7 @@ export const AuthContent = styled.div`
 `;
 
 export const HeaderStyled = styled(Header)({
-    margin: '0!important',
-    display: 'flex',
-    justifyContent: 'flex-end',
+  margin: '0!important',
+  display: 'flex',
+  justifyContent: 'flex-end',
 });
