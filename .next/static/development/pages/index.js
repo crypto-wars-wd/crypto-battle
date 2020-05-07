@@ -40,7 +40,7 @@ var AuthPage = function AuthPage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 9
     }
   }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["HeaderStyled"], {
@@ -48,7 +48,7 @@ var AuthPage = function AuthPage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 13
     }
   }, __jsx(react_google_login__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -60,7 +60,7 @@ var AuthPage = function AuthPage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 17
     }
   }), __jsx(react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -73,21 +73,21 @@ var AuthPage = function AuthPage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 17
     }
   })), __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContentWrapper"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 13
     }
   }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContent"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 17
     }
   })));

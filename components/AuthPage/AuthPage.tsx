@@ -10,8 +10,9 @@ const responseGoogle = (response: any) => {
 };
 
 const responseFacebook = (response: any) => {
-    console.log(response);
-}
+  console.log(response);
+};
+
 
 const AuthPage: React.FC = () => {
   return (
