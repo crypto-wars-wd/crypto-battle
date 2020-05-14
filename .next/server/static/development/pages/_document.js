@@ -600,7 +600,7 @@ class Head extends _react.Component {
       href: canonicalBase + getAmpPath(ampPath, dangerousAsPath)
     }), this.getCssLinks(), !disableRuntimeJS && _react.default.createElement("link", {
       rel: "preload",
-      href: assetPrefix + getOptionalModernScriptVariant(encodeURI(`/_next/static/${buildId}/pages/_app.js`)) + _devOnlyInvalidateCacheQueryString,
+      href: assetPrefix + getOptionalModernScriptVariant(encodeURI(`/_next/static/${buildId}/pages/_app.ts`)) + _devOnlyInvalidateCacheQueryString,
       as: "script",
       nonce: this.props.nonce,
       crossOrigin: this.props.crossOrigin || undefined
@@ -802,7 +802,7 @@ class NextScript extends _react.Component {
     const appScript = [_react.default.createElement("script", Object.assign({
       async: true,
       "data-next-page": "/_app",
-      src: assetPrefix + `/_next/static/${buildId}/pages/_app.js` + _devOnlyInvalidateCacheQueryString,
+      src: assetPrefix + `/_next/static/${buildId}/pages/_app.ts` + _devOnlyInvalidateCacheQueryString,
       key: "_app",
       nonce: this.props.nonce,
       crossOrigin: this.props.crossOrigin || undefined

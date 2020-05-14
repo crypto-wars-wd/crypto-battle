@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.tsx"],{
 
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
@@ -579,11 +579,11 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
     (window.__NEXT_P = window.__NEXT_P || []).push([
       "/_app",
       function () {
-        var mod = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js");
+        var mod = __webpack_require__(/*! private-next-pages/_app.tsx */ "./pages/_app.js");
         if (true) {
-          module.hot.accept(/*! private-next-pages/_app.js */ "./pages/_app.js", function () {
+          module.hot.accept(/*! private-next-pages/_app.tsx */ "./pages/_app.js", function () {
             if (!next.router.components["/_app"]) return;
-            var updatedPage = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js");
+            var updatedPage = __webpack_require__(/*! private-next-pages/_app.tsx */ "./pages/_app.js");
             next.router.update("/_app", updatedPage);
           });
         }
@@ -1169,7 +1169,7 @@ var Router = /*#__PURE__*/function () {
         __N_SSG: mod.__N_SSG,
         __N_SSP: mod.__N_SSP
       });
-      this.components[route] = newData; // pages/_app.js updated
+      this.components[route] = newData; // pages/_app.tsx updated
 
       if (route === '/_app') {
         this.notify(this.components[this.route]);
@@ -3793,7 +3793,7 @@ module.exports = function (list, options) {
 
 /***/ "./pages/_app.js":
 /*!***********************!*\
-  !*** ./pages/_app.js ***!
+  !*** ./pages/_app.tsx ***!
   \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3806,7 +3806,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_css_semantic_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-css/semantic.min.css */ "./node_modules/semantic-ui-css/semantic.min.css");
 /* harmony import */ var semantic_ui_css_semantic_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_css_semantic_min_css__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/_app.js";
+var _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/_app.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1__["createElement"];
 
 
@@ -3853,4 +3853,4 @@ module.exports = dll_2adc2403d89adc16ead0;
 /***/ })
 
 },[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=_app.js.map
+//# sourceMappingURL=_app.tsx.map

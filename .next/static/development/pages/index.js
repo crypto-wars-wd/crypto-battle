@@ -60081,7 +60081,7 @@ module.exports = function(module) {
 
 /***/ "./pages/auth.tsx":
 /*!************************!*\
-  !*** ./pages/auth.tsx ***!
+  !*** ./pages/home.tsx ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -60092,15 +60092,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_AuthPage_AuthPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AuthPage/AuthPage */ "./components/AuthPage/AuthPage.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/auth.tsx";
+    _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/home.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 // import * as React from 'react';
 // import Router from 'next/router'
 //
-// const Auth: React.FC = () => <h1 onClick={() => Router.push('/')}>Auth</h1>;
+// const Home: React.FC = () => <h1 onClick={() => Router.push('/')}>Home</h1>;
 //
-// export default Auth;
+// export default Home;
 
 
 

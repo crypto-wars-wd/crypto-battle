@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import userDataReducer from './userData';
+import userReducer from './reducers/userReducer';
 
 const rootReducer = combineReducers({
-  lyrics: userDataReducer,
+    user: userReducer,
 });
 
 export type AppState = ReturnType<typeof rootReducer>;

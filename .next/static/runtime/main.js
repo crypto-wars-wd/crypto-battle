@@ -4604,7 +4604,7 @@ var Router = /*#__PURE__*/function () {
         __N_SSG: mod.__N_SSG,
         __N_SSP: mod.__N_SSP
       });
-      this.components[route] = newData; // pages/_app.js updated
+      this.components[route] = newData; // pages/_app.tsx updated
 
       if (route === '/_app') {
         this.notify(this.components[this.route]);
