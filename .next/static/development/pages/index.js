@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_facebook_login__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 var _this = undefined,
-    _jsxFileName = "/home/andrey/programming/projects/templateNext/components/AuthPage/AuthPage.tsx";
+    _jsxFileName = "/home/andrey/programming/projects/TemplateNext/components/AuthPage/AuthPage.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 
@@ -40,7 +40,7 @@ var AuthPage = function AuthPage(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 17,
       columnNumber: 9
     }
   }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["HeaderStyled"], {
@@ -48,7 +48,7 @@ var AuthPage = function AuthPage(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 18,
       columnNumber: 13
     }
   }, __jsx(react_google_login__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -60,7 +60,7 @@ var AuthPage = function AuthPage(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 19,
       columnNumber: 17
     }
   }), __jsx(react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -74,7 +74,7 @@ var AuthPage = function AuthPage(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 26,
       columnNumber: 17
     }
   }), __jsx("button", {
@@ -82,21 +82,21 @@ var AuthPage = function AuthPage(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 34,
       columnNumber: 17
     }
   })), __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContentWrapper"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 36,
       columnNumber: 13
     }
   }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContent"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 37,
       columnNumber: 17
     }
   })));
@@ -106,10 +106,9 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
     sayHello: function sayHello() {
       return dispatch({
-        type: "HELLO"
+        type: 'HELLO'
       });
-    } // onClear: () => dispatch(setLyrics("")),
-
+    }
   };
 };
 
@@ -22909,9 +22908,9 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FTemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true!./":
 /*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FTemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true ***!
   \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -60093,7 +60092,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_AuthPage_AuthPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AuthPage/AuthPage */ "./components/AuthPage/AuthPage.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/auth.tsx";
+    _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/auth.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 // import * as React from 'react';
@@ -60135,7 +60134,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./auth */ "./pages/auth.tsx");
 /* harmony import */ var _redux_configureStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../redux/configureStore */ "./redux/configureStore.ts");
 var _this = undefined,
-    _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/index.tsx";
+    _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 // import * as React from 'react';
@@ -60248,7 +60247,7 @@ __webpack_require__.r(__webpack_exports__);
 // import * as actions from "../actionTypes/lyricsActionTypes";
 var initialState = {
   userData: {
-    name: ""
+    name: ''
   }
 };
 function userDataReducer() {
@@ -60256,10 +60255,10 @@ function userDataReducer() {
   var action = arguments.length > 1 ? arguments[1] : undefined;
 
   switch (action.type) {
-    case "Hello":
+    case 'Hello':
       return {
         userData: {
-          name: "Andrey"
+          name: 'Andrey'
         }
       };
 
@@ -60296,7 +60295,7 @@ function watchDataUser() {
       switch (_context.prev = _context.next) {
         case 0:
           _context.next = 2;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["takeEvery"])("HELLO", _workerDataUser__WEBPACK_IMPORTED_MODULE_2__["sayHello"]);
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["takeEvery"])('HELLO', _workerDataUser__WEBPACK_IMPORTED_MODULE_2__["sayHello"]);
 
         case 2:
         case "end":
@@ -60330,7 +60329,7 @@ function sayHello() {
       switch (_context.prev = _context.next) {
         case 0:
           _context.next = 2;
-          return console.log("HELLO");
+          return console.log('HELLO');
 
         case 2:
         case "end":
@@ -60383,12 +60382,12 @@ function rootSaga() {
 
 /***/ 1:
 /*!*******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true ***!
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FTemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true ***!
   \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FtemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FTemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandrey%2Fprogramming%2Fprojects%2FTemplateNext%2Fpages%2Findex.tsx&hotRouterUpdates=true!./");
 
 
 /***/ }),

@@ -1,6 +1,6 @@
-import { takeEvery} from "redux-saga/effects";
-import * as workers from "./workerDataUser";
+import { takeEvery } from 'redux-saga/effects';
+import * as workers from './workerDataUser';
 
 export default function* watchDataUser() {
-    yield takeEvery("HELLO", workers.sayHello);
+  yield takeEvery('HELLO', workers.sayHello);
 }

@@ -3806,7 +3806,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_css_semantic_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-css/semantic.min.css */ "./node_modules/semantic-ui-css/semantic.min.css");
 /* harmony import */ var semantic_ui_css_semantic_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_css_semantic_min_css__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/_app.js";
+var _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1__["createElement"];
 
 
@@ -3836,7 +3836,7 @@ function MyApp(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true!./");
-module.exports = __webpack_require__(/*! /home/andrey/programming/projects/templateNext/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /home/andrey/programming/projects/TemplateNext/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),

@@ -2,20 +2,18 @@ import * as React from 'react';
 import * as Styled from './styledComponent';
 import GoogleLogin from 'react-google-login';
 import FacebookLoginWithButton from 'react-facebook-login';
-import { connect } from "react-redux";
+import { connect } from 'react-redux';
 
 const responseGoogle = (response: any) => {
-    console.log(response);
+  console.log(response);
 };
 
 const responseFacebook = (response: any) => {
-    console.log(response);
+  console.log(response);
 };
 
-
-
 const AuthPage: React.FC = (props: any) => {
-    return (
+  return (
         <Styled.AuthMain>
             <Styled.HeaderStyled block>
                 <GoogleLogin
@@ -39,18 +37,16 @@ const AuthPage: React.FC = (props: any) => {
                 <Styled.AuthContent />
             </Styled.AuthContentWrapper>
         </Styled.AuthMain>
-    );
+  );
 };
 
-
 const mapDispatchToProps = (dispatch: any) => ({
-    sayHello: () => dispatch({
-        type: "HELLO",
-    }),
-    // onClear: () => dispatch(setLyrics("")),
+  sayHello: () => dispatch({
+    type: 'HELLO',
+  }),
 });
 
 export default connect(
     null,
-    mapDispatchToProps
+    mapDispatchToProps,
 )(AuthPage);

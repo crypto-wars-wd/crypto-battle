@@ -19,10 +19,10 @@
 // export default App;
 
 import * as React from 'react';
-import { Provider } from "react-redux";
+import { Provider } from 'react-redux';
 
 import Auth from './auth';
-import configureStore from "../redux/configureStore";
+import configureStore from '../redux/configureStore';
 
 const store = configureStore();
 

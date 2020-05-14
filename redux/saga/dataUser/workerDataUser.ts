@@ -1,3 +1,3 @@
 export function* sayHello() {
-    yield console.log("HELLO");
+  yield console.log('HELLO');
 }

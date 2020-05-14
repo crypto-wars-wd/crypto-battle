@@ -111,7 +111,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_facebook_login__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "react-redux");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/andrey/programming/projects/templateNext/components/AuthPage/AuthPage.tsx";
+var _jsxFileName = "/home/andrey/programming/projects/TemplateNext/components/AuthPage/AuthPage.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 
 
@@ -132,7 +132,7 @@ const AuthPage = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 17,
       columnNumber: 9
     }
   }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["HeaderStyled"], {
@@ -140,7 +140,7 @@ const AuthPage = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 18,
       columnNumber: 13
     }
   }, __jsx(react_google_login__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -152,7 +152,7 @@ const AuthPage = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 19,
       columnNumber: 17
     }
   }), __jsx(react_facebook_login__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -166,7 +166,7 @@ const AuthPage = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 26,
       columnNumber: 17
     }
   }), __jsx("button", {
@@ -174,21 +174,21 @@ const AuthPage = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 34,
       columnNumber: 17
     }
   })), __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContentWrapper"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 36,
       columnNumber: 13
     }
   }, __jsx(_styledComponent__WEBPACK_IMPORTED_MODULE_1__["AuthContent"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 37,
       columnNumber: 17
     }
   })));
@@ -196,9 +196,8 @@ const AuthPage = props => {
 
 const mapDispatchToProps = dispatch => ({
   sayHello: () => dispatch({
-    type: "HELLO"
-  }) // onClear: () => dispatch(setLyrics("")),
-
+    type: 'HELLO'
+  })
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])(null, mapDispatchToProps)(AuthPage));
@@ -264,7 +263,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_AuthPage_AuthPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AuthPage/AuthPage */ "./components/AuthPage/AuthPage.tsx");
-var _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/auth.tsx";
+var _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/auth.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 // import * as React from 'react';
 // import Router from 'next/router'
@@ -303,7 +302,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./auth */ "./pages/auth.tsx");
 /* harmony import */ var _redux_configureStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../redux/configureStore */ "./redux/configureStore.ts");
-var _jsxFileName = "/home/andrey/programming/projects/templateNext/pages/index.tsx";
+var _jsxFileName = "/home/andrey/programming/projects/TemplateNext/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 // import * as React from 'react';
 // import ListComponent from './List';
@@ -416,15 +415,15 @@ __webpack_require__.r(__webpack_exports__);
 // import * as actions from "../actionTypes/lyricsActionTypes";
 const initialState = {
   userData: {
-    name: ""
+    name: ''
   }
 };
 function userDataReducer(state = initialState, action) {
   switch (action.type) {
-    case "Hello":
+    case 'Hello':
       return {
         userData: {
-          name: "Andrey"
+          name: 'Andrey'
         }
       };
 
@@ -451,7 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function* watchDataUser() {
-  yield Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_0__["takeEvery"])("HELLO", _workerDataUser__WEBPACK_IMPORTED_MODULE_1__["sayHello"]);
+  yield Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_0__["takeEvery"])('HELLO', _workerDataUser__WEBPACK_IMPORTED_MODULE_1__["sayHello"]);
 }
 
 /***/ }),
@@ -467,7 +466,7 @@ function* watchDataUser() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sayHello", function() { return sayHello; });
 function* sayHello() {
-  yield console.log("HELLO");
+  yield console.log('HELLO');
 }
 
 /***/ }),
@@ -501,7 +500,7 @@ function* rootSaga() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/andrey/programming/projects/templateNext/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /home/andrey/programming/projects/TemplateNext/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),
